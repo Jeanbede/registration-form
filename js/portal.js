@@ -30,7 +30,7 @@ $(document).ready(function () {
   $(".container").submit(function(event) {
     event.preventDefault();
     var name = $("#naame").val();
-    alert("Our Dear  Member," + name+"  Welcome  and  feel  at  home  to  be  part  of  the  successful  team. Together  we  shall  conquer.!!!");
+    alert("Our Dear  Member"   + name+" ,  Welcome  and  feel  at  home  to  be  part  of  the  successful  team. Together  we  shall  conquer.!!!");
     document.getElementById("my-form").reset();
 });
 
